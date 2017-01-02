@@ -1,0 +1,9 @@
+/Users/arielacohen/Projects/TwitterHistory/TwitterHistory/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/arielacohen/Projects/TwitterHistory/TwitterHistory/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/arielacohen/Projects/TwitterHistory/TwitterHistory/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/arielacohen/Projects/TwitterHistory/TwitterHistory/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/arielacohen/Projects/TwitterHistory/TwitterHistory/obj/iPhoneSimulator/Debug/optimized/
+/Users/arielacohen/Projects/TwitterHistory/TwitterHistory/bin/iPhoneSimulator/Debug/TwitterHistory.exe.mdb
+/Users/arielacohen/Projects/TwitterHistory/TwitterHistory/bin/iPhoneSimulator/Debug/TwitterHistory.exe
+/Users/arielacohen/Projects/TwitterHistory/TwitterHistory/obj/iPhoneSimulator/Debug/TwitterHistory.exe
+/Users/arielacohen/Projects/TwitterHistory/TwitterHistory/obj/iPhoneSimulator/Debug/TwitterHistory.exe.mdb

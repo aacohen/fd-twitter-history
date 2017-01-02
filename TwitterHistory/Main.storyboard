@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="5" translatesAutoresizingMaskIntoConstraints="NO" placeholder="Twitter Username" textAlignment="center">
+                                <rect key="frame" x="160" y="285" width="281" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <constraints>
+                                    <constraint id="12" firstAttribute="width" constant="281"/>
+                                </constraints>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityConfiguration key="traits" searchField="YES" notEnabled="YES"/>
+                                </accessibility>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="196" y="376" width="208" height="30"/>
+                                <state key="normal" title="Search ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton6_TouchUpInside:" destination="BYZ-38-t0r" id="7" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="16" firstAttribute="width" constant="208"/>
+                                </constraints>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="84" y="364" width="208" height="30"/>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="26" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="47"/>
+                            <constraint id="27" firstItem="5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="285"/>
+                            <constraint id="33" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" constant="83"/>
+                            <constraint id="34" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="6" secondAttribute="bottom" constant="273"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="21"/>
+                                <exclude reference="22"/>
+                                <exclude reference="26"/>
+                                <exclude reference="27"/>
+                                <exclude reference="33"/>
+                                <exclude reference="34"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="21"/>
+                                <include reference="22"/>
+                                <include reference="26"/>
+                                <include reference="27"/>
+                                <include reference="33"/>
+                                <include reference="34"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="usernameTextField" destination="5" id="name-outlet-5"/>
+                        <outlet property="searchButton" destination="6" id="name-outlet-6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina47"/>
+    </simulatedMetricsContainer>
+</document>

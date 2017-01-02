@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{BACA66D2-FB3C-445A-BAA8-1829A3B03C81}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="TwitterHistory/AppDelegate.cs" Line="8" Column="27" />
+      <File FileName="TwitterHistory/ViewController.cs" Line="11" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TwitterHistory PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.95FFD7A6-6EB9-411D-873B-B503881EDCFE" />
+</Properties>
